@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Rasoul Jourmand</Authors>
+    <Company>RPTD</Company>
+    <Product>RsjFramework</Product>
+    <PackageId>RsjFramework.ApplicationService</PackageId>
+    <Version>1.0.9</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Autofac" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01 Entities\RsjFramework.Entities\RsjFramework.Entities.csproj" />
+    <ProjectReference Include="..\..\02 Contracts\RsjFramework.Contracts\RsjFramework.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

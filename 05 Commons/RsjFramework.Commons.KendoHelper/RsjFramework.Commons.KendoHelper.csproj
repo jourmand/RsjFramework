@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Rasoul Jourmand</Authors>
+    <Company>RPTD</Company>
+    <Product>RsjFramework</Product>
+    <PackageId>RsjFramework.KendoHelper</PackageId>
+    <Version>1.0.2</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.5" />
+  </ItemGroup>
+</Project>

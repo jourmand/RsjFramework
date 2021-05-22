@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Authors>Rasoul Jourmand</Authors>
+    <Company>RPTD</Company>
+    <Product>RsjFramework</Product>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\02 Contracts\RsjFramework.Contracts\RsjFramework.Contracts.csproj" />
+    <ProjectReference Include="..\..\03 ApplicationService\RsjFramework.ApplicationService\RsjFramework.ApplicationService.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Rasoul Jourmand</Authors>
+    <Company>RPTD</Company>
+    <Product>RsjFramework</Product>
+    <PackageId>RsjFramework.Contracts</PackageId>
+    <Version>1.2.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01 Entities\RsjFramework.Entities\RsjFramework.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
