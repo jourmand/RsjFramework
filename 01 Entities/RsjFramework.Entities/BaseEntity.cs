@@ -27,5 +27,6 @@ namespace RsjFramework.Entities
     public abstract class Entity<T> : BaseEntity, IEntity
     {
         public T Id { get; set; }
+        public bool IsDeleted { get; set; }
     }
 }
