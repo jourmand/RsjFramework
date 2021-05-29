@@ -7,9 +7,9 @@
     <Company>RPTD</Company>
     <Product>RsjFramework</Product>
     <PackageId>RsjFramework.KendoHelper</PackageId>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.5" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.9" />
   </ItemGroup>
 </Project>
