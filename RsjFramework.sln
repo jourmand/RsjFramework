@@ -23,6 +23,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commons", "Commons", "{99C1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RsjFramework.Commons.KendoHelper", "05 Commons\RsjFramework.Commons.KendoHelper\RsjFramework.Commons.KendoHelper.csproj", "{65B47805-B103-4A2B-8740-F371E72AB58D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RsjFramework.Commons.ValidationAttributes", "05 Commons\RsjFramework.Commons.ValidationAttributes\RsjFramework.Commons.ValidationAttributes.csproj", "{D815675C-72B1-4CC1-9C9E-81FA33FAEE48}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RsjFramework.Commons.ValidationAttributes.Tests", "Tests\05 Commons\RsjFramework.Commons.ValidationAttributes.Tests\RsjFramework.Commons.ValidationAttributes.Tests.csproj", "{B5B584CF-21C6-4DC1-8F62-C1240E98C951}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C8A7DC9C-3A58-4FAE-B06A-0F71C7D3F164}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commons", "Commons", "{F60F955A-7110-4066-AFDC-B96163A0BF56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +57,14 @@ Global
 		{65B47805-B103-4A2B-8740-F371E72AB58D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65B47805-B103-4A2B-8740-F371E72AB58D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65B47805-B103-4A2B-8740-F371E72AB58D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D815675C-72B1-4CC1-9C9E-81FA33FAEE48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D815675C-72B1-4CC1-9C9E-81FA33FAEE48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D815675C-72B1-4CC1-9C9E-81FA33FAEE48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D815675C-72B1-4CC1-9C9E-81FA33FAEE48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5B584CF-21C6-4DC1-8F62-C1240E98C951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5B584CF-21C6-4DC1-8F62-C1240E98C951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5B584CF-21C6-4DC1-8F62-C1240E98C951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5B584CF-21C6-4DC1-8F62-C1240E98C951}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +75,9 @@ Global
 		{15DB8DB3-4AC4-42C7-BC5D-B38D842A4730} = {2EC80549-A0AB-45D3-85D2-3214B7023206}
 		{81E584E5-77E1-4BE0-B99B-6ED878BC7042} = {BDE73903-586D-420E-BE0A-72310F3E0479}
 		{65B47805-B103-4A2B-8740-F371E72AB58D} = {99C12082-7596-42C8-AB41-8D89CD0CEA70}
+		{D815675C-72B1-4CC1-9C9E-81FA33FAEE48} = {99C12082-7596-42C8-AB41-8D89CD0CEA70}
+		{B5B584CF-21C6-4DC1-8F62-C1240E98C951} = {F60F955A-7110-4066-AFDC-B96163A0BF56}
+		{F60F955A-7110-4066-AFDC-B96163A0BF56} = {C8A7DC9C-3A58-4FAE-B06A-0F71C7D3F164}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {090DE962-656F-45B2-A904-2F6052D21E03}
