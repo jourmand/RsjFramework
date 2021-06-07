@@ -10,6 +10,6 @@
     <Version>1.0.3</Version>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.9" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.10" />
   </ItemGroup>
 </Project>
